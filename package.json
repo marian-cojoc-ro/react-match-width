@@ -1,0 +1,39 @@
+{
+  "name": "react-match-width",
+  "version": "0.1.0",
+  "description": "A react utility (in the form of a higher order component) that makes it easy use the width media query allowing a higher degree of flexibility than CSS Media Queries",
+  "keywords": [
+    "react",
+    "media-queries",
+    "matchMedia"
+  ],
+  "homepage": "https://github.com/marian-cojoc-ro/react-match-width",
+  "bugs": "https://github.com/marian-cojoc-ro/react-match-width/issues",
+  "main": "lib/index.js",
+  "repository": "https://github.com/marian-cojoc-ro/react-match-width.git",
+  "author": "Marian COJOC ro <marian.cojoc.ro@gmail.com> (https://github.com/marian-cojoc-ro)",
+  "files": [
+    "README.md",
+    "src",
+    "lib"
+  ],
+  "scripts": {
+    "build": "rollup -c rollup.config.js "
+  },
+  "dependencies": {
+    "css-mediaquery": "^0.1.2"
+  },
+  "peerDependencies": {
+    "react": "^15.6.1"
+  },
+  "devDependencies": {
+    "babel-plugin-external-helpers": "^6.22.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "react": "^15.6.1",
+    "rollup": "^0.45.0",
+    "rollup-plugin-babel": "^2.7.1",
+    "rollup-plugin-commonjs": "^8.0.2"
+  },
+  "license": "Unlicense"
+}
