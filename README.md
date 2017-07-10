@@ -52,7 +52,7 @@ import { withDefaults } from 'react-match-width';
 
 // produce a default enabled version of the module
 const { matchWidth } = withDefaults({
-  width: '1200px',
+  width: '1200px', // default is: 1280px
 });
 
 
